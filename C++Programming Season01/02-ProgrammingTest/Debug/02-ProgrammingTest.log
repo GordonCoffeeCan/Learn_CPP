@@ -1,3 +1,3 @@
 ﻿  02-ProgrammingTest.cpp
-G:\Unreal_C++\C++Programming Season01\02-ProgrammingTest\02-ProgrammingTest.cpp(19,20): warning C4305: 'initializing': truncation from 'double' to 'float'
-  02-ProgrammingTest.vcxproj -> G:\Unreal_C++\C++Programming Season01\Debug\02-ProgrammingTest.exe
+D:\Documents\Learn_CPP_Season_01\C++Programming Season01\02-ProgrammingTest\02-ProgrammingTest.cpp(20,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  02-ProgrammingTest.vcxproj -> D:\Documents\Learn_CPP_Season_01\C++Programming Season01\Debug\02-ProgrammingTest.exe

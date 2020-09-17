@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    const int I = 10;
 
     char c = 'a';
     char c2 = ' ';
