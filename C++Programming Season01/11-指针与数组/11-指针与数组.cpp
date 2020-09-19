@@ -3,8 +3,22 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
 
-	return 0;
+	int a[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+	cout << a << endl;
+
+	cout << *a << endl;
+
+	cout << *(a + 4) << endl;
+
+	*(a + 1) = 1000;
+
+	cout << a[1] << endl;
+
+	return 0; 
 }
