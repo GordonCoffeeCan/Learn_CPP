@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-    int a = 10;
+    /*int a = 10;
     float b = 9.7f;
-    int c = 20;
+    int c = 20;*/
 
     ////& Get variable addsress;
 
@@ -19,17 +19,24 @@ int main()
 
     //cout << *(&a) << endl;
 
-    int* pa = &a;
+    /*int* pa = &a;
     float* pb = &b;
     int* p;
 
     p = pa;
 
-    int* p1;
-    int* p2;
+    int* p1 = NULL;
+    int* p2 = 0;
+    int* p3 = nullptr;*/
 
-    cout << *p1 << endl;
-    cout << *p2 << endl;
+    //void* vP;//accept any kind of address;
+
+    //vP = &a;
+
+    //cout << *p1 << endl;
+    //cout << *p3 << endl;
+
+    //cout << *(int*)vP << endl;
 
     //cout << *p << endl;
     //cout << *pa << endl;
@@ -46,8 +53,10 @@ int main()
     cout << *pa << endl;
     cout << *pb << endl;*/
 
-
-
+    int* p = new int;
+    *p = 100;
+    cout << *p << endl;
+    delete p;
 
     return 0;
 }
