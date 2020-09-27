@@ -9,6 +9,8 @@ using namespace std;
 int cube1(int i);
 int cube2(const int i);
 int pCube1(int* pi);
+int rCube1(int& r);
+int rCube2(const int& r);
 
 int main() {
 
@@ -33,6 +35,11 @@ int main() {
     cout << pCube1(&num1) << "; " << endl;
     //cout << pCube1(&num2) << "; " << endl;
 
+    cout << rCube1(num1) << endl;
+    //cout << rCube1(num2) << endl;
+
+    cout << rCube2(num2) << endl;
+
     return 0;
 }
 
@@ -55,4 +62,12 @@ int pCube2(const int* pi) {
 
 int pCube3(int* const pi) {
     return (*pi) * (*pi) * (*pi);
+}
+
+int rCube1(int& r) {
+    return r * r * r;
+}
+
+int rCube2(const int& r) {
+    return r * r * r;
 }
